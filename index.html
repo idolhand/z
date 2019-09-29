@@ -13,33 +13,11 @@
   
   $().ready(function() {
    $("#text").html("ready");
-    
-    // create illo
-let illo = new Zdog.Illustration({
-  // set canvas with selector
-  element: '.zdog-canvas',
-});
-
-// add circle
-new Zdog.Ellipse({
-  addTo: illo,
-  diameter: 80,
-  stroke: 20,
-  color: '#636',
-});
-
-// update & render
-illo.updateRenderGraph();
-    
   });
-  
-  
-  // zdog-demo.js
 
 
-    
 </script>
-
+  <script src="main.js"></script>
 <div id="text"></div>
   
 <canvas class="zdog-canvas" id="canvas" width="240" height="240"></canvas>
