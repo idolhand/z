@@ -2,7 +2,7 @@
 let isSpinning = true;
 
 let illo = new Zdog.Illustration({
-  element: '.zdog-canvas',
+  element: '#canvas',
   zoom: 4,
   dragRotate: true,
   // stop rotation when dragging starts
