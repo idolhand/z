@@ -43,6 +43,16 @@ new Zdog.Ellipse({
 
 // update & render
 illo.updateRenderGraph();
+    
+    function animate() {
+  // rotate illo each frame
+  illo.rotate.y += 0.03;
+  illo.updateRenderGraph();
+  // animate next frame
+  requestAnimationFrame( animate );
+}
+// start animation
+animate();
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
