@@ -22,3 +22,5 @@ function animate() {
   requestAnimationFrame( animate );
 }
 animate();
+
+alert("booop")
