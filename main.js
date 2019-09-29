@@ -1,4 +1,10 @@
-// zdog-demo.js
+
+
+
+$().ready(function() {
+  $("#text").html("ready");
+  
+  // zdog-demo.js
 
 // create illo
 let illo = new Zdog.Illustration({
@@ -16,3 +22,6 @@ new Zdog.Ellipse({
 
 // update & render
 illo.updateRenderGraph();
+  
+  
+});
