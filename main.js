@@ -42,6 +42,6 @@ illo.updateRenderGraph();
   illo.rotate.y += 0.03;
   illo.updateRenderGraph();
   // animate next frame
-  requestAnimationFrame( animate );
+  requestAnimationFrame( drawstuff );
     }
 })();
